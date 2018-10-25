@@ -18,9 +18,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.raluc.homeworkwk4.MainActivity" >
+        <activity android:name="com.example.raluc.homeworkwk4.ui.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.raluc.homeworkwk4.BookView"
+            android:name="com.example.raluc.homeworkwk4.ui.BookView"
             android:label="@string/title_activity_book_view"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>

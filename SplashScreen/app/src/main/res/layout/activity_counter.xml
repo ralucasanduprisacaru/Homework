@@ -6,17 +6,17 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Counter">
+        tools:context=".counter.Counter">
 
     <fragment
             android:id="@+id/frag1"
-            android:name="com.example.raluc.splashscreen.fragments.CounterFragment1"
+            android:name="com.example.raluc.splashscreen.counter.ButtonFragment"
             android:layout_width="match_parent"
             android:layout_height="300dp" />
     <fragment
             android:id="@+id/frag2"
             android:layout_marginTop="10dp"
-            android:name="com.example.raluc.splashscreen.fragments.CounterFragment2"
+            android:name="com.example.raluc.splashscreen.counter.CounterFragment2"
             android:layout_width="match_parent"
             android:layout_height="200dp" />
 

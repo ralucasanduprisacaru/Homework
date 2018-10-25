@@ -24,10 +24,10 @@
         </activity>
         <activity android:name=".Tickets">
         </activity>
-        <activity android:name=".Counter">
+        <activity android:name=".counter.Counter">
         </activity>
         <service
-                android:name=".Helper"
+                android:name=".counter.Helper"
                 android:exported="true"
                 android:enabled="true">
         </service>

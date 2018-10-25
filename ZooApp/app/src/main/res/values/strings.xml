@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ZooApp</string>
+    <string name="zoo_description">
+        London Zoo is the world\'s oldest scientific zoo founded over 180 years ago and can be found in the heart of London,
+        in Regent’s Park.</string>
+    <string name="find_out_more">Find out more</string>
+    <string name="categories">Categories</string>
+    <string-array name="category_list">
+        <item>Mammals</item>
+        <item>Bird</item>
+        <item>Fish</item>
+        <item>Reptiles</item>
+        <item>Other</item>
+
+    </string-array>
+</resources>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\01. Android\\01. Projects\\03. Tests\\Weekend4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+            "outputFile": "E:\\01. Android\\01. Projects\\01. Homeworks\\Weekend4\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\raluc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\067abd1c563ee25e238154f28fa100ee\\res\\values-kn\\values-kn.xml",

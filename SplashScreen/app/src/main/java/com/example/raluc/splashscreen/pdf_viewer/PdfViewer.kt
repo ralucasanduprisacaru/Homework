@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentTransaction
 import android.view.View
 import com.example.raluc.splashscreen.MainActivity
 import com.example.raluc.splashscreen.R
-import com.example.raluc.splashscreen.fragments.DialogFragmentTicket
+import com.example.raluc.splashscreen.DialogFragmentTicket
 import com.github.barteksc.pdfviewer.PDFView
 import java.lang.Exception
 

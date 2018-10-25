@@ -10,6 +10,7 @@ import android.os.Bundle
 import android.support.annotation.RequiresApi
 import android.support.v4.app.NotificationCompat
 import android.view.View
+import com.example.raluc.splashscreen.counter.Counter
 import com.example.raluc.splashscreen.pdf_viewer.PdfViewer
 
 @Suppress("DEPRECATION")
