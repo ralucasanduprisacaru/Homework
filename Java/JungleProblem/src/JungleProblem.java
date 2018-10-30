@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import animals.Animal;
+
 
 public class JungleProblem {
 
@@ -15,8 +17,8 @@ public class JungleProblem {
 		
 		
 		for (Animal a : myAnimals) {
-			System.out.println("I am a " + a.getAnimalName());
-			System.out.println(a.getSoundMade());
+			System.out.print("I am a " + a.getAnimalName() + " !");
+			System.out.print(a.getSoundMade());
 		}
 		
 	}

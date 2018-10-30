@@ -1,5 +1,8 @@
 import java.util.ArrayList;
-import java.util.List;
+import animals.Animal;
+import animals.Monkey;
+import animals.Snake;
+import animals.Tiger;
 
 public class Jungle {
 	
@@ -34,12 +37,10 @@ public class Jungle {
 	}
 	
 	public void addMonkey() {
-		Monkey monkey = new Monkey("monkey");
 		this.jungleAnimals.add(new Monkey("monkey"));
 	}
 	
 	public void addSnake() {
-		Snake snake = new Snake("snake");
 		this.jungleAnimals.add(new Snake("snake"));
 	}
 
@@ -58,9 +59,5 @@ public class Jungle {
 	public void setAnimalFoods(String[] animalFoods) {
 		this.animalFoods = animalFoods;
 	}
-	
-	
-	
-	
 
 }
