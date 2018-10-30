@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Random;
+import java.lang.reflect.Method;
 import animals.Animal;
 import animals.Monkey;
 import animals.Snake;
@@ -20,6 +22,50 @@ public class Jungle {
 		
 	}
 	
+	public Method [] getPublicMethods(Animal a) {
+		
+		Class<? extends Animal> animalClass = a.getClass();
+		Method [] methods = animalClass.getDeclaredMethods();
+		return methods;
+	}
+	
+	public Method getRandomMethod(Animal a) {
+		
+		Method randomMethod = null;
+		
+		Method [] methods = getPublicMethods(a);
+		
+		if(methods.length > 0) {
+			randomMethod = methods[(int) (Math.random() * methods.length)];
+		}
+		
+		return randomMethod;
+	}
+	
+	
+	public void checkMethod(Method randomMethod) {
+		
+		switch (randomMethod.getName()) {
+		
+		case "makeSound":
+			break;
+		case  "sleep" :
+			break;
+		case "getAnimalName":
+			break;
+		case "getEnergyLevel":
+			break;
+		case "getSoundLevel":
+			break;
+		case "getSoundMade":
+			break;
+		
+		}
+		
+		
+	}
+	
+
 	public void populateList(int animalNumber) {
 		for (int i=0; i<animalNumber; i++) {
 			addTiger();
@@ -31,9 +77,7 @@ public class Jungle {
 	
 	public void addTiger() {
 		Tiger tiger = new Tiger("tiger");
-		System.out.println("Tiger created");
 		this.jungleAnimals.add(tiger);
-		System.out.println("Tiger created");
 	}
 	
 	public void addMonkey() {
