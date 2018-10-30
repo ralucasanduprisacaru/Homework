@@ -16,8 +16,6 @@ public class JungleProblem {
 			System.out.println(a.getSoundMade());
 		}
 		
-		
-
 	}
 
 }

@@ -6,7 +6,6 @@ public abstract class Animal {
 		private String animalName;
 		private int energyLevel;
 		private int soundLevel;
-		private int hungerLevel;
 		private boolean playAbility = false;
 		private String soundMade;
 		
@@ -20,7 +19,7 @@ public abstract class Animal {
 			
 		}
 		
-		public void eatFood() {
+		public void eatFood(String foodType) {
 			
 			energyLevel += 5;
 		}
@@ -58,13 +57,6 @@ public abstract class Animal {
 			this.soundLevel = soundLevel;
 		}
 
-		public int getHungerLevel() {
-			return hungerLevel;
-		}
-
-		public void setHungerLevel(int hungerLevel) {
-			this.hungerLevel = hungerLevel;
-		}
 
 		public boolean isPlayAbility() {
 			return playAbility;
