@@ -27,15 +27,21 @@ public class Jungle {
 	
 	
 	public void addTiger() {
-		this.jungleAnimals.add(new Tiger("tiger"));
+		Tiger tiger = new Tiger("tiger");
+		this.jungleAnimals.add(tiger);
+		Tiger.tigerNumber.add(tiger);
 	}
 	
 	public void addMonkey() {
+		Monkey monkey = new Monkey("monkey");
 		this.jungleAnimals.add(new Monkey("monkey"));
+		Monkey.monkeyNumber.add(monkey);
 	}
 	
 	public void addSnake() {
+		Snake snake = new Snake("snake");
 		this.jungleAnimals.add(new Snake("snake"));
+		Snake.snakeNumber.add(snake);
 	}
 
 	public ArrayList<Animal> getJungleAnimals() {
