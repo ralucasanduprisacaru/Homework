@@ -1,5 +1,6 @@
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Tiger extends Animal {
@@ -10,6 +11,10 @@ public class Tiger extends Animal {
 	public Tiger(String animalName) {
 		this.setAnimalName(animalName);
 		this.setSoundMade("GRRR");
+		
+		// instantiate the tiger list and add the new tiger to the list
+		tigerNumber = new ArrayList<Tiger>();
+		tigerNumber.add(this);
 	
 	}
 

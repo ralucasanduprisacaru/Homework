@@ -1,4 +1,5 @@
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Monkey extends Animal{
@@ -7,15 +8,21 @@ public class Monkey extends Animal{
 	
 	public Monkey(String animalName) {
 		this.setAnimalName(animalName);
+		// let the monkey play 
 		this.setPlayAbility(true);
+		// set the monkey sound
 		this.setSoundMade("UU-AA");
+		
+		// instantiate the monkey list and add the created monkey to the list
+		monkeyNumber = new ArrayList<Monkey>();
+		monkeyNumber.add(this);
 		
 	}
 
 
 	
 	@Override
-	public void eatFood() {
+	public void eatFood(String foodType) {
 		this.setEnergyLevel(2);
 	}
 

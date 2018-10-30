@@ -1,5 +1,6 @@
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Snake extends Animal {
@@ -8,7 +9,13 @@ public class Snake extends Animal {
 	
 	public Snake(String animalName) {
 		this.setAnimalName(animalName);
-		// TODO Auto-generated constructor stub
+		// set the sound made
+		this.setSoundMade("Shhh");
+		
+		// instantiate the snake list and add the created snake to the list
+		snakeNumber = new ArrayList<Snake>();
+		snakeNumber.add(this);
+		
 	}
 
 

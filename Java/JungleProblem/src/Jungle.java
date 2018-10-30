@@ -28,20 +28,19 @@ public class Jungle {
 	
 	public void addTiger() {
 		Tiger tiger = new Tiger("tiger");
+		System.out.println("Tiger created");
 		this.jungleAnimals.add(tiger);
-		Tiger.tigerNumber.add(tiger);
+		System.out.println("Tiger created");
 	}
 	
 	public void addMonkey() {
 		Monkey monkey = new Monkey("monkey");
 		this.jungleAnimals.add(new Monkey("monkey"));
-		Monkey.monkeyNumber.add(monkey);
 	}
 	
 	public void addSnake() {
 		Snake snake = new Snake("snake");
 		this.jungleAnimals.add(new Snake("snake"));
-		Snake.snakeNumber.add(snake);
 	}
 
 	public ArrayList<Animal> getJungleAnimals() {
